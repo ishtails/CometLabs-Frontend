@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const NavBar = () => {
   return (
-    <div className="flex mt-5 mx-5 justify-between max-w-6xl m-auto items-center">
+    <div className="flex mt-5 mx-5 justify-between max-w-6xl xl:mx-auto items-center">
         <img src={logo} alt="logo" title="Weiss" className="w-32"/>
 
         <div className="flex space-x-4 font-semibold text-slate-800">
