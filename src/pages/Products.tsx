@@ -1,7 +1,7 @@
 import image_1 from "../assets/Image_2.png";
 import image_2 from "../assets/Image_3.png";
 import image_3 from "../assets/Image_4.png";
-import Card from "../components/Card";
+import CardImage from "../components/CardImage";
 import image_5 from "../assets/Image_5.png";
 import Rectangle_Box from "../components/Rectangle_Box";
 
@@ -14,17 +14,17 @@ const Products = () => {
         </h1>
 
         <div className="relative flex items-center justify-between mx-auto  max-w-6xl">
-          <Card
+          <CardImage
             src={image_1}
             title={`VR Headset`}
             body={`Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.`}
           />
-          <Card
+          <CardImage
             src={image_2}
             title={`Drones`}
             body={`Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.`}
           />
-          <Card
+          <CardImage
             src={image_3}
             title={`Digital Cameras`}
             body={`Verkehrskonzepte sind ein entscheidender Faktor jeglicher Infrastruktur. Das Ingenieurbüro Weiss hat deshalb ein Expertenteam aufgebaut.`}
@@ -37,7 +37,7 @@ const Products = () => {
           <img
             src={image_5}
             alt="earpods"
-            className="absolute top-[130%] right-0 w-[50%]"
+            className="absolute top-[130%] right-0 w-[50%] lg:w-[35%]"
           />
         </div>
       </div>
