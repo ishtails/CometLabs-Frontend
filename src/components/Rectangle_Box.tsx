@@ -2,19 +2,16 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Rectangle_Box = () => {
   return (
-    <div className="w-[80%] mx-10 bg-[#131416] text-slate-100 pl-10 pr-36 py-16">
-      <div className="w-[60%]">
+    <div className="w-[90%] xl:w-full mx-10 bg-[#131416] text-slate-100 pl-10 pr-36 py-10">
+      <div className="md:w-[60%]">
         <h3 className="text-slate-500 mb-5 md:mb-10 uppercase font-semibold">
-          Unsere Firmenhistorie
+          Unleash Your Creativity
         </h3>
         <h1 className="font-bold text-xl md:text-3xl mb-4">
-          Diplom-Ingenieur Dieter Weiss gründete im Jahre 1971 sein
-          Ingenieurbüro.
+          Amplify your artistic abilities with our range of creative tools.
         </h1>
         <p className="mb-4">
-          Fast 30 Jahre lang führte er es als Alleininhaber. 1998 trat Sohn
-          Klaus weiss als Stellvertreter an die Seite seines Vaters. Seit 2006
-          ist Diplom-Ingenieur Klaus Weiss alleiniger Geschäftsführer
+        Immerse yourself in a world of rich, immersive sound, where every note, every beat, and every lyric comes alive with breathtaking clarity. Our state-of-the-art earpods deliver a truly premium audio experience, designed for discerning music lovers and audio enthusiasts who demand nothing but the best.
         </p>
         <hr />
         <button className="flex items-center mt-4">
