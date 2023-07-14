@@ -26,9 +26,9 @@ export default function App() {
     };
   }, []);
   return (
-    <div className="bg-white relative min-h-screen scroll-smooth">
+    <div className="bg-white relative min-h-screen">
       {/* Navbar */}
-      <div className="sticky top-0 z-50 bg-white">
+      <div className="sticky top-0 z-40 bg-white">
         <NavBar />
       </div>
 
