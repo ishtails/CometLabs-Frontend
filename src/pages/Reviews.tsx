@@ -13,7 +13,7 @@ const Reviews = () => {
       <div className="flex flex-col sm:flex-row items-center justify-around mr-8">
         <Card
           title="Sarah"
-          body="he build quality of these earpods is second to none. From the moment you hold them in your hands, you can feel the attention to detail and the premium craftsmanship."
+          body="The build quality of these earpods is second to none. From the moment you hold them in your hands, you can feel the attention to detail and the premium craftsmanship."
         />
         <Card
           title="Michael "
