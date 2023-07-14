@@ -1,3 +1,4 @@
+import image_1 from "../assets/image_7.jpg";
 import image_2 from "../assets/image_2.jpg";
 import image_3 from "../assets/Image_3.jpg";
 import CardImage from "../components/CardImage";
@@ -31,9 +32,9 @@ const Products = () => {
               body={`Take to the skies and capture breathtaking moments with our high-performance drones. Unlock new perspectives, unleash your creativity, and explore the world from above with our cutting-edge aerial companions.`}
             />
             <CardImage
-              src={image_3}
-              title={`Digital Cameras`}
-              body={`Capture memories instantly and bring them to life with our classic Polaroid cameras. Rediscover the joy of physical photos, share tangible mementos, and create lasting memories that you can hold in your hands.`}
+              src={image_1}
+              title={`Smart Watches`}
+              body={`Elevate your style and stay connected with our high-end smartwatch. Combining timeless elegance with cutting-edge features, this sophisticated timepiece seamlessly integrates into your daily routine.`}
             />
           </div>
 

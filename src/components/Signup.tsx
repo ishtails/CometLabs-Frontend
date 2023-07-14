@@ -49,8 +49,8 @@ function SignUpModal() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="bg-white rounded w-[50%] p-8">
-                <div className="w-full max-w-md">
+              <div className="bg-white rounded p-8">
+                <div className="w-[40vh] max-w-md">
                   <div className="flex justify-between mb-8">
                     <h2 className="text-2xl font-bold font-lexend">Sign Up</h2>
                     <button className="text-slate-500" onClick={closeModal}>
