@@ -19,7 +19,7 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-end pl-4 mx-auto max-w-6xl">
+        <div className="flex flex-col items-center pl-4 mx-auto max-w-6xl">
           <div className="flex flex-col sm:flex-row space-y-10 sm:space-y-0 justify-between xl:space-x-24 ml-6">
             <CardImage
               src={image_3}
@@ -45,7 +45,7 @@ const Products = () => {
           <img
             src={image_5}
             alt="earpods"
-            className="hidden lg:block relative bottom-80 xl:bottom-72 xl:-right-10 w-[40%] xl:w-[35%]"
+            className="hidden lg:block relative bottom-[20rem] left-[21rem] xl:bottom-64 xl:left-[24rem] w-[40%] xl:w-[35%]"
           />
         </div>
       </div>
