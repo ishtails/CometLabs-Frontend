@@ -5,7 +5,7 @@ import logo_2 from "../assets/Weiss Logo_Light.svg";
 const Footer = () => {
   return (
     <div>
-      <div className="relative pt-24 lg:pt-56">
+      <div id="support" className="relative pt-24 lg:pt-56">
         <img
           src={image_6}
           alt="watch"

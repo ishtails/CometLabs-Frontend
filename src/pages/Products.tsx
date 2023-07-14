@@ -6,7 +6,7 @@ import Rectangle_Box from "../components/Rectangle_Box";
 
 const Products = () => {
   return (
-    <div className="bg-slate-100 pb-20 px-2 sm:min-h-[960px] sm:h-[120vh]">
+    <div id="products" className="bg-slate-100 pb-20 px-2 sm:min-h-[960px] sm:h-[120vh]">
       <div className="flex flex-col mt-14 justify-between pt-14">
         <h1 className="font-lexend text-5xl font-semibold text-center mb-10">
           Products

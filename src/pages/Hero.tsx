@@ -3,8 +3,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="h-full flex mt-14 items-center justify-between mx-10 xl:mx-auto max-w-6xl">
-      <div className="sm:w-[30%] space-y-4">
+    <div id="hero" className="h-full flex mt-14 items-center justify-between mx-10 xl:mx-auto max-w-6xl">
+      <div className="sm:w-[30%] lg:w-[40%] space-y-4">
         <h1 className="font-lexend font-bold text-4xl">
           Quality You Can Trust
         </h1>

@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 const Reviews = () => {
   return (
-    <div className=" flex flex-col mb-20 mt-20 sm:mt-56 md:mt-96 xl:mt-72 max-w-6xl xl:mx-auto">
+    <div id="reviews" className=" flex flex-col mb-20 mt-20 sm:mt-56 md:mt-96 xl:mt-72 max-w-6xl xl:mx-auto">
       <div className="flex flex-col mb-16 items-center self-center">
         <h1 className="font-bold text-5xl">Reviews</h1>
         <p className="text-slate-500 mt-4">
