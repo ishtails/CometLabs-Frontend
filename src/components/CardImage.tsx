@@ -8,8 +8,8 @@ type Props = {
 
 const CardImage = ({ src, title, body }: Props) => {
   return (
-    <div className="flex flex-col items-start">
-      <img src={src} />
+    <div className="flex flex-col max-w-[400px]">
+      <img src={src} className="" />
       <div className="ml-[10%] -mt-2">
         <h1 className="font-lexend text-lg font-semibold">{title}</h1>
         <p className="text-sm text-slate-500">{body}</p>
