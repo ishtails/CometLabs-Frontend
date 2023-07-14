@@ -8,10 +8,10 @@ const NavBar = () => {
       <img src={logo} alt="logo" title="Weiss" className="w-32" />
 
       <div className="hidden sm:flex space-x-4 font-semibold text-slate-700">
-        <Link to="products" spy={true} smooth={true} duration={500}>
+        <Link to="products" spy={true} smooth={true} offset={-50} duration={500}>
           <p className="cursor-pointer">Products</p>
         </Link>
-        <Link to="reviews" spy={true} smooth={true} offset={-10} duration={700}>
+        <Link to="reviews" spy={true} smooth={true} offset={-100} duration={700}>
           <p className="cursor-pointer">Reviews</p>
         </Link>
         <Link to="support" spy={true} smooth={true} offset={-10} duration={700}>
