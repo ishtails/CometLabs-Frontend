@@ -20,7 +20,7 @@ const Products = () => {
         </div>
 
         <div className="relative flex items-center pl-4 mx-auto max-w-6xl">
-          <div className="flex justify-between xl:space-x-24 ml-6">
+          <div className="flex flex-col sm:flex-row space-y-10 sm:space-y-0 justify-between xl:space-x-24 ml-6">
             <CardImage
               src={image_3}
               title={`Digital Cameras`}
