@@ -25,6 +25,7 @@ export default function App() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  
   return (
     <div className="bg-white relative min-h-screen">
       {/* Navbar */}

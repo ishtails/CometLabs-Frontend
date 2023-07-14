@@ -39,14 +39,14 @@ const Footer = () => {
           <div className="bg-zinc-900 px-10">
             <div className=" text-slate-50 max-w-6xl xl:mx-auto">
               <div className="flex justify-between mt-10 ">
-                <img src={logo_2} className="hidden sm:block" />
+                <img src={logo_2} className="hidden sm:block" alt="logo_light"/>
                 <span>
-                  <h3 className="font-lexend font-semibold">Contact</h3>
+                  <h4 className="font-lexend font-semibold">Contact</h4>
                   <p className="text-sm">Phone: +1 (555) 123-4567</p>
                   <p className="text-sm">Email: info@example.com</p>
                 </span>
                 <span>
-                  <h3 className="font-lexend font-semibold">Address</h3>
+                  <h4 className="font-lexend font-semibold">Address</h4>
                   <p className="text-sm">123 Main Street</p>
                   <p className="text-sm">Mumbai, India</p>
                 </span>
