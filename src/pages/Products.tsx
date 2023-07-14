@@ -6,7 +6,7 @@ import Rectangle_Box from "../components/Rectangle_Box";
 
 const Products = () => {
   return (
-    <div className="bg-slate-100 h-[120vh]">
+    <div className="bg-slate-100 pb-20 px-2 sm:min-h-[960px] sm:h-[120vh]">
       <div className="flex flex-col mt-14 justify-between pt-14">
         <h1 className="font-lexend text-5xl font-semibold text-center mb-10">
           Products
@@ -24,14 +24,14 @@ const Products = () => {
             body={`Capture memories instantly and bring them to life with our classic Polaroid cameras. Rediscover the joy of physical photos, share tangible mementos, and create lasting memories that you can hold in your hands.`}
           />
 
-          <div className="absolute top-[120%]">
+          <div className="absolute hidden sm:block top-[75vh]">
             <Rectangle_Box />
           </div>
 
           <img
             src={image_5}
             alt="earpods"
-            className="absolute top-[130%] right-0 w-[50%] lg:w-[35%]"
+            className="hidden md:block absolute top-[90vh] xl:top-[80vh] right-0 xl:-right-36 w-[50%]"
           />
         </div>
       </div>

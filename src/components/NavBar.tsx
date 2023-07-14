@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className="flex mt-5 mx-10 justify-between max-w-6xl xl:mx-auto items-center">
         <img src={logo} alt="logo" title="Weiss" className="w-32"/>
 
-        <div className="flex space-x-4 font-semibold text-slate-800">
+        <div className="hidden sm:flex space-x-4 font-semibold text-slate-800">
             <p>Home</p>
             <p>Products</p>
             <p>Contact Us</p>
