@@ -1,6 +1,6 @@
 import image_1 from "../assets/image_7.jpg";
 import image_2 from "../assets/image_2.jpg";
-import image_3 from "../assets/Image_3.jpg";
+import image_3 from "../assets/image_3.jpg";
 import CardImage from "../components/CardImage";
 import image_5 from "../assets/Image_5.png";
 import Rectangle_Box from "../components/Rectangle_Box";
