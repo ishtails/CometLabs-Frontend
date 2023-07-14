@@ -27,7 +27,7 @@ export default function App() {
   }, []);
   
   return (
-    <div className="bg-white relative min-h-screen">
+    <div className="bg-white relative min-h-screen overflow-x-hidden">
       {/* Navbar */}
       <div className="sticky top-0 z-40 bg-white">
         <NavBar />

@@ -19,7 +19,7 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="relative flex items-center pl-4 mx-auto max-w-6xl">
+        <div className="flex flex-col items-end pl-4 mx-auto max-w-6xl">
           <div className="flex flex-col sm:flex-row space-y-10 sm:space-y-0 justify-between xl:space-x-24 ml-6">
             <CardImage
               src={image_3}
@@ -38,14 +38,14 @@ const Products = () => {
             />
           </div>
 
-          <div className="absolute hidden sm:block left-0 xl:top-[70vh] top-[60vh]">
+          <div className="relative top-20 xl:top-28 hidden sm:block left-0">
             <Rectangle_Box />
           </div>
 
           <img
             src={image_5}
             alt="earpods"
-            className="hidden md:block absolute top-[90vh] xl:top-[75vh] right-0 xl:-right-36 w-[40%]"
+            className="hidden lg:block relative bottom-80 xl:bottom-72 xl:-right-10 w-[40%] xl:w-[35%]"
           />
         </div>
       </div>

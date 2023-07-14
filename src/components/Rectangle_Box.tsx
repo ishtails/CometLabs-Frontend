@@ -2,8 +2,8 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Rectangle_Box = () => {
   return (
-    <div className="w-[90%] xl:w-full mx-10 bg-[#131416] text-slate-100 pl-10 pr-36 py-10">
-      <div className="md:w-[60%]">
+    <div className="w-[90%] max-w-[960px] xl:w-full mx-10 bg-[#131416] text-slate-100 pl-10 pr-36 py-10">
+      <div className="lg:w-[60%]">
         <h3 className="text-slate-500 mb-5 md:mb-10 uppercase font-semibold">
           Unleash Your Creativity
         </h3>

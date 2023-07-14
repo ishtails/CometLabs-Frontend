@@ -9,7 +9,7 @@ const Footer = () => {
         <img
           src={image_6}
           alt="watch"
-          className="w-[50%] hidden xl:block object-cover max-w-[650px] absolute -top-8 right-[5%]"
+          className="w-[45%] hidden xl:block object-cover max-w-[650px] absolute top-0 right-[5%]"
         />
 
         <div className="bg-slate-100 flex flex-col justify-between">
