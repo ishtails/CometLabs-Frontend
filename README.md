@@ -1,4 +1,4 @@
-# CometLabs - Frontend Task
+# Weiss
 
 A landing page for an imaginary tech gadget company.
 
