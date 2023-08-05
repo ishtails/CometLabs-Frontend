@@ -12,7 +12,7 @@ A landing page for an imaginary tech gadget company.
 
 ## Getting Started
 
-You can access the deployed version of this app at [https://comet-labs-frontend-ten.vercel.app/](https://comet-labs-frontend-ten.vercel.app/).
+You can access the deployed version of this app at [https://weiss-ishtails.vercel.app/](https://weiss-ishtails.vercel.app/).
 
 If you would like to run the app locally on your machine, follow the instructions below.
 
@@ -21,7 +21,7 @@ If you would like to run the app locally on your machine, follow the instruction
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/ishtails/CometLabs-Frontend
+   git clone https://github.com/ishtails/Weiss
    ```
 
 2. Change to the project directory:
