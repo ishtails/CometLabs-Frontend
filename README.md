@@ -27,7 +27,7 @@ If you would like to run the app locally on your machine, follow the instruction
 2. Change to the project directory:
 
    ```bash
-   cd CometLabs-Frontend
+   cd Weiss
    ```
 
 3. Install the dependencies:
