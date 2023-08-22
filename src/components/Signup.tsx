@@ -12,7 +12,7 @@ function SignUpModal() {
   return (
     <>
       <button
-        className="flex items-center space-x-2 bg-slate-800 text-white p-2"
+        className="flex items-center transition-all hover:bg-slate-700 space-x-2 bg-slate-800 text-white p-2"
         onClick={() => {
           setIsOpen(true);
         }}
