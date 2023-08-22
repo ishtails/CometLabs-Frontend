@@ -13,7 +13,7 @@ const Hero = () => {
           commitment to excellence. Every gadget undergoes rigorous quality
           testing to ensure you receive only the best.
         </p>
-        <button className="flex items-center space-x-2 bg-slate-800 text-white p-2">
+        <button className="transition-all hover:bg-slate-700 flex items-center space-x-2 bg-slate-800 text-white p-2">
           <p>Get in touch</p>
           <AiOutlineArrowRight />
         </button>
