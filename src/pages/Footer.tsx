@@ -29,7 +29,7 @@ const Footer = () => {
                 seamless and enjoyable.
               </p>
               <hr />
-              <button className="flex items-center mt-4">
+              <button className="transition-all hover:text-slate-600 flex items-center mt-4">
                 <p className="font-bold text-sm">Contact Us</p>
                 <FaAngleRight />
               </button>
